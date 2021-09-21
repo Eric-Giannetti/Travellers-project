@@ -1,0 +1,581 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Staatliches&display=swap');
+
+@font-face {
+  font-family: Milkshake;
+  src: url("../fonts/Milkshake.ttf");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.title{
+  color: #0c3b4e;
+  font-size: 40px;
+  font-family: Bebas Neue;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  font-family: Bebas Neue, "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  border: 0;
+  opacity: 85%;
+  cursor: pointer;
+  background-color: #94D7F2;
+}
+
+.divButtonMenu{
+  display: flex; 
+  justify-content: center; 
+  margin-top: 25px;
+}
+header {
+  padding-bottom: 1rem;
+  height: auto;
+}
+
+.dFlex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.font25{font-size:2.5em;}
+.font12{font-size:1.2em;}
+
+.width80{width: 80px;}
+.border0{border:0;}
+
+#headerlejazz{
+  background: url("../images/lejazz-interior.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30em;
+}
+
+#headercinepolis{
+  background: url("../images/cinepolis.jpg");
+   background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30em;
+}
+#headerleDOM{
+  background: url("../images/dom-prato2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30em;
+}
+#headerautodromo{
+  background: url("../images/autodromo.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30em;
+}
+#headerleTerraco{
+  background: url("../images/terraco-italia-prato.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30em;
+}
+
+#headerteatro{
+  background: url("../images/teatro.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30em;
+}
+  
+#headerjockey{
+  background: url("../images/jockeyclub.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30em;
+}
+#headerlePontoChic{
+  background: url("../images/ponto-chic-interior.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30em;
+}
+#headerIndex{
+  background: url("../images/SaoPaulo.jpg");
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: cover;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 30px;
+  padding: 10px;
+  color: white;
+}
+
+header nav #nome {
+  font-family: Milkshake;
+  font-size: 4.0rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+header nav #nome:hover {
+  color: #94D7F2;
+}
+
+header nav p {
+  font-weight: bold;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 15px;
+}
+header nav ul li a{
+  font-size: 1.8em;
+  text-decoration: none;
+}
+
+header nav ul li:hover {
+  color: #94D7F2;
+}
+
+.header-content {
+  font-weight: lighter;
+  text-align: center;
+  color: white;
+}
+
+#headerlejazz .header-content,
+#headerleDOM .header-content,
+#headerleTerraco .header-content,
+#headerlePontoChic .header-content,
+#headercinepolis .header-content,
+#headerautodromo .header-content,
+#headerjockey .header-content,
+#headerteatro .header-content {
+  height: 100%;
+  width: 100%;
+  font-family: Bebas Neue;
+  font-size: 4em;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+#headerIndex .header-content {
+  max-width: 400px;
+  margin: 150px auto;
+}
+
+#headerIndex .header-content h1 {
+  margin-bottom: 10px !important;
+  font-size: 2.5rem;
+}
+
+.pacotes {
+  padding: 15px;
+}
+
+.pacotes h1 {
+  width: 100;
+  margin: auto;
+  text-align: center;
+  color: #343434;
+  margin: 25px 0;
+}
+
+.pacotes .pacotes-cards {
+  display: flex;
+  max-width: 1170px;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pacotes .card {
+  width: 250px;
+  height: 370px;
+  background: white;
+  border-radius: 24px 0px;
+  margin: 15px auto;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.pacotes .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+
+.pacotes .card-img {
+  width: 250px;
+  height: 180px;
+  border-radius: 24px 0 0 0;
+  object-fit: cover;
+}
+
+.pacotes .card-content {
+  padding: 0 15px;
+}
+
+.pacotes .card-content ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+}
+
+.pacotes .card-content ul li {
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.pacotes .card-content ul li svg {
+  width: 14px;
+  height: 14px;
+  margin-right: 7px;
+}
+
+.pacotes .card-content h1 {
+  font-size: 1.4rem;
+}
+
+.pacotes .card .card-tag p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: white;
+  font-weight: bold;
+}
+
+.pacotes .card .card-tag-top {
+  position: absolute;
+  right: 0;
+  top: 15px;
+  background: #ffa03b;
+  border-radius: 8px 0 0 8px;
+  padding: 5px 10px;
+}
+
+.pacotes .card .card-tag-bottom {
+  position: absolute;
+  left: 0;
+  top: 152px;
+  background: #31ca46;
+  border-radius: 0 8px 8px 0;
+  padding: 5px 10px;
+}
+
+
+.cardInformacoes{
+  width: 70%;
+  height: auto;
+  background-color: #f1f1f1;
+  border-radius: 24px 0px;
+  margin: 15px auto;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  display: flex;
+  flex-direction: row;
+}
+
+.cardInformacoes .card-img {
+  border-radius: 24px 0 0 0;
+  width: 50%;
+  object-fit: fill;
+}
+
+
+.cardInformacoes .card-info{
+  padding: 20px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-map-pin{
+  margin-right: 5px;
+}
+.breve-descricao{
+  font-size: 0.7rem;
+ text-align: justify;
+}
+.flex-column{
+  display: flex; 
+  flex-direction: column;
+}
+.flex-column-space{
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-between;
+}
+.flex-row{
+  display: flex; 
+  flex-direction: row;
+}
+.flex-row-space{
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+}
+.saiba-mais{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.saiba-mais button{
+  border: 1px solid #000;
+}
+
+.servicos {
+  padding: 15px;
+}
+
+.servicos h1 {
+  text-align: center;
+}
+
+.servicos .servicos-cards {
+  display: flex;
+  max-width: 1170px;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.servicos .card {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 40px;
+}
+
+.servicos .card svg {
+  width: 60px;
+  height: 60px;
+  margin-top: 30px;
+  transition: all 0.5s;
+}
+
+.servicos .card svg:hover {
+  stroke: #0b2344;
+  transform: scale(1.1);
+}
+
+.servicos .card h3 {
+  font-weight: bold;
+}
+
+.servicos .card p {
+  color: grey;
+  text-align: center;
+}
+
+.servicos .card .card-content {
+  height: 215px;
+  text-align: center;
+}
+
+.servicos button {
+  background: #0b2344;
+  color: white;
+}
+
+.contato {
+  width: 100%;
+  height: 20vh;
+  padding: 40px;
+  position: relative;
+  background: #94D7F2;
+}
+
+.contato-card-new{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contato .contato-card {
+  width: 350px;
+  height: 190px;
+  background: white;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 99;
+
+  top: calc(45% - 150px);
+  left: calc(34% - 175px);
+}
+
+.contato .contato-card h1 {
+  margin: 20px 40px;
+}
+
+.contato .contato-card li {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: grey;
+
+  display: flex;
+  align-items: center;
+}
+
+.contato .contato-card li svg {
+  width: 13px;
+  height: 13px;
+  margin: 7px;
+  color: #ffa03b;
+}
+
+
+.rodape{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+  height: 50px;
+  color: #fff;
+  background-color:#0b2344 ;
+}
+.logo{
+  font-family: Milkshake;
+  font-size: 3.5em;
+}
+.mini-icon{
+  width: 14px;
+  margin-right: 5px;
+}
+
+.redes-sociais-img{
+  width: 40px;
+  margin-right: 15px;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 950px) {
+  .contato {
+    padding: 60px 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .dFlex{
+    align-items: center;
+    flex-direction: column ;
+  }
+  .contato {
+    padding: 30px 0;
+  }
+
+  .contato .contato-card {
+    position: static;
+    margin: 0 auto 30px;
+  }
+
+  .contato .contato-card h1 {
+    padding: 20px 0 0 0;
+  }
+}
+
+@media (max-width: 767px) {
+}
+@media (max-width: 990px) {
+  .cardInformacoes{
+    flex-direction: column;
+  }
+
+  .cardInformacoes .card-img {
+    transition: 1s;
+    width: 100%;
+    height: 30vh;
+    border-radius: 24px 0 0 0;
+    object-fit:fill;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    margin-bottom: 55px;
+  }
+
+  header nav ul {
+    position: fixed !important;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    z-index: 99;
+    background: #0b2344;
+    color: white;
+    font-weight: bold;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header nav p {
+    width: 100%;
+    text-align: center;
+  }
+}

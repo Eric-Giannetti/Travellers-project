@@ -1,0 +1,213 @@
+.container{
+  width: 96%;
+  padding: 0 2%;
+}
+
+p{
+  text-align: justify;
+}
+
+.ImageAndDescription{
+  margin-top: 3em;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.imgDescription, .txtDescription{
+  width: 50%;
+}
+.ImageAndDescription .imgDescription img{
+  width: 80%;
+  height: auto;
+}
+
+.txtDescription{
+  margin-top: 3%;
+  font-weight: bold;
+}
+
+.detalhes{
+  padding: 10px;
+}
+
+.detalhes-cards{
+  display: flex;
+  max-width: 1170px;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.detalhes {
+  padding: 15px;
+}
+
+.detalhes h1 {
+  width: 100;
+  margin: auto;
+  text-align: center;
+  color: #343434;
+  margin: 25px 0;
+}
+
+.detalhes .Avaliacao {
+  display: flex;
+  max-width: 1170px;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.adress{
+  font-size: 0.8rem;
+}
+
+.adress li {
+  display: flex;
+  align-items: center;
+}
+.adress li img{
+  margin-right: 5%;
+}
+
+.adress a{
+  text-decoration: none;
+}
+.adress a:hover {
+  text-decoration: underline;
+}
+
+.detalhes .card {
+  border: #343434 1px solid;
+  width: 300px;
+  height: 500px;
+  background: white;
+  border-radius: 24px 0px;
+  margin: 15px auto;
+  padding: 8%;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.detalhes .card h3{
+  text-align: center;
+  font-family: Bebas Neue;
+  font-size: 1.8em;
+  padding-bottom: 1rem;
+}
+
+.detalhes .card h4{
+  text-align: center;
+  font-family: Bebas Neue;
+  font-size: 2rem;
+  padding-right: 1rem;
+}
+
+.detalhes .card h5{
+  font-family: Bebas Neue;
+  font-size: 1.3rem;
+  padding-right: 1rem;
+}
+
+.ItemDetalhes{
+  padding-bottom: 2rem;
+}
+
+.detalhes .card .stars{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.detalhes .card-img {
+  width: 250px;
+  height: 180px;
+  border-radius: 24px 0 0 0;
+  object-fit: cover;
+}
+
+.detalhes .card-content {
+  padding: 0 15px;
+}
+
+.detalhes .card-content ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+}
+
+.detalhes .card-content ul li {
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.detalhes .card-content ul li svg {
+  width: 14px;
+  height: 14px;
+  margin-right: 7px;
+}
+
+.detalhes .card-content h1 {
+  font-size: 1.4rem;
+}
+
+form{
+  width: 95%;
+  margin-bottom: 1%;
+}
+
+form textarea{
+  width: 100%;
+  resize:none;
+  padding: 1rem;
+  border-radius: 15px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 1%;
+}
+form button{
+  width: 100%;
+  text-align: center;
+  font-family: Bebas Neue;
+  padding: 0.5rem;
+  font-size: 2rem;
+  border-radius: 15px;
+}
+
+textarea, button:focus{
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+
+.comentariosAntigos{
+  width: 100%;
+  height: auto;
+  border-top: 1px solid #e6e3e3;
+  border-bottom: 1px solid #e6e3e3;
+  margin-bottom: 30px;
+}
+.usuario{
+  height: auto;
+}
+
+.usuario img{
+  width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	float: left;
+	margin: 15px;
+}
+
+.comentario{
+  width: auto;
+  display: contents;
+}
+
+.comentario h4{
+  margin-top: 15px;
+}

@@ -1,0 +1,89 @@
+#logo{
+  font-size: 3.5rem;
+  font-family: Milkshake;
+}
+
+#header{
+  box-sizing: border-box;
+  height: 70px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #94D7F2;
+}
+
+#menu{
+  display: flex;
+  gap: .5rem;
+}
+
+#menu a{
+  display: block;
+  padding: 0.5rem;
+}
+
+#btnMobile{
+  display: none;
+}
+
+@media(max-width: 600px){
+  #menu{
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    right: 0;
+    background: #94D7F2;
+    transition: 0.7s;
+    z-index: 1000;
+    height: 0;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+  #nav.active #menu{
+    height: calc(100vh - 70px);
+    visibility: visible;
+    overflow-y: auto;
+  }
+  #menu a{
+    padding: 1rem 0;
+    margin: 0 1rem;
+    border-bottom: 2px solid #e6e3e3;
+  }
+  #btnMobile{
+    display: flex;
+    pad: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none ;
+    background: none;
+    cursor: pointer;
+  }
+
+  #burguer{
+    width: 20px;
+    border-top: 2px solid #000;
+  }
+  #burguer::after, #burguer::before{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+  }
+
+  #nav.active #burguer{
+    border-top-color: transparent ;
+  }
+  #nav.active #burguer::before{
+    transform: rotate(135deg);
+  }
+  #nav.active #burguer::after{
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+
+}
